@@ -1,23 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>GC_Convention</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
         <members>GC_Attendee__c.GC_Email__c</members>
         <name>CustomField</name>
     </types>
     <types>
-        <members>GC_Event__c</members>
         <members>GC_Attendee__c</members>
+        <members>GC_Event__c</members>
         <name>CustomObject</name>
     </types>
     <types>
-        <members>GC_Event__c</members>
         <members>GC_Attendee__c</members>
+        <members>GC_Event__c</members>
         <name>CustomTab</name>
     </types>
     <types>
-        <members>GC_Event__c.All</members>
         <members>GC_Attendee__c.All</members>
+        <members>GC_Event__c.All</members>
         <name>ListView</name>
     </types>
     <version>62.0</version>
-</Package>                                                       
+</Package>
