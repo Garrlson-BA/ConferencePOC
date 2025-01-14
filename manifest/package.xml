@@ -5,16 +5,19 @@
         <name>CustomField</name>
     </types>
     <types>
+        <members>GC_Event__c</members>
         <members>GC_Attendee__c</members>
         <name>CustomObject</name>
     </types>
     <types>
+        <members>GC_Event__c</members>
         <members>GC_Attendee__c</members>
         <name>CustomTab</name>
     </types>
     <types>
+        <members>GC_Event__c.All</members>
         <members>GC_Attendee__c.All</members>
         <name>ListView</name>
     </types>
     <version>62.0</version>
-</Package>
+</Package>                                                       
